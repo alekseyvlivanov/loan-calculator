@@ -2,5 +2,11 @@
   "mount": {
     "src": "/"
   },
-  "plugins": [["snowpack-plugin-optimize"]]
+  "optimize": {
+    "bundle": true,
+    "splitting": true,
+    "treeshake": true,
+    "minify": true,
+    "target": "es2018"
+  }
 }
