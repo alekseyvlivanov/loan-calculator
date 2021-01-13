@@ -1,0 +1,6 @@
+{
+  "mount": {
+    "src": "/"
+  },
+  "plugins": [["snowpack-plugin-optimize"]]
+}

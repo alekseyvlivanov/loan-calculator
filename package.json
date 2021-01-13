@@ -1,0 +1,32 @@
+{
+  "name": "loan-calculator",
+  "version": "1.0.0",
+  "description": "Loan Calculator",
+  "private": "true",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "prebuild": "rimraf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekseyvlivanov/loan-calculator.git"
+  },
+  "keywords": [
+    "loan calculator"
+  ],
+  "author": "Aleksey Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekseyvlivanov/loan-calculator/issues"
+  },
+  "homepage": "https://github.com/alekseyvlivanov/loan-calculator#readme",
+  "dependencies": {
+    "@blaze/atoms": "^11.0.3"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "snowpack": "^3.0.3",
+    "snowpack-plugin-optimize": "^0.5.0"
+  }
+}

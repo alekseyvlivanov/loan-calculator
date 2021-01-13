@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[[redirects]]
+  from = "https://loan-calculator-chessiah.netlify.app/*"
+  to = "https://loan-calculator.chessiah.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://loan-calculator-chessiah.netlify.app/*"
+  to = "https://loan-calculator.chessiah.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://loan-calculator.chessiah.com/*"
+  to = "https://loan-calculator.chessiah.com/:splat"
+  status = 301
+  force = true
