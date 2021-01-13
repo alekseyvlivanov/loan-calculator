@@ -5,8 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loan Calculator</title>
   </head>
-  <body>
-    <h1>Loan Calculator</h1>
+  <body class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card card-body text-center mt-5">
+            <h1 class="heading display-5 pb-3">Loan Calculator</h1>
+
+            <form id="loan-form" class="mb-3">
+              <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input
+                  id="amount"
+                  type="number"
+                  class="form-control"
+                  placeholder="Amount"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text">%</span>
+                <input
+                  id="interest"
+                  type="number"
+                  class="form-control"
+                  placeholder="Interest"
+                />
+              </div>
+              <input
+                id="years"
+                type="number"
+                class="form-control mb-3"
+                placeholder="Years to repay"
+              />
+              <button type="submit" class="btn btn-dark w-100">
+                <span class="spinner-border spinner-border-sm d-none"></span>
+                Calculate
+              </button>
+            </form>
+
+            <div id="results">
+              <h5>Results</h5>
+              <div class="input-group mb-3">
+                <span class="input-group-text w-50">Monthly payment</span>
+                <input
+                  id="monthly-payment"
+                  type="number"
+                  class="form-control"
+                  readonly
+                />
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text w-50">Total payment</span>
+                <input
+                  id="total-payment"
+                  type="number"
+                  class="form-control"
+                  readonly
+                />
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text w-50">Total interest</span>
+                <input
+                  id="total-interest"
+                  type="number"
+                  class="form-control"
+                  readonly
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="script.js" type="module"></script>
   </body>
 </html>
