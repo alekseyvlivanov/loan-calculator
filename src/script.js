@@ -1,3 +1,1 @@
-import '@blaze/atoms/dist/blaze-atoms/blaze-atoms.css';
-
-import '@blaze/atoms/dist';
+import 'bootstrap/dist/css/bootstrap.min.css';
