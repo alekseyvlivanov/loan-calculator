@@ -3,19 +3,19 @@
   publish = "build"
 
 [[redirects]]
-  from = "https://loan-calculator-chessiah.netlify.app/*"
-  to = "https://loan-calculator.chessiah.com/:splat"
+  from = "https://loan-calculator-aleksey-vl-ivanov.netlify.app/*"
+  to = "https://loan-calculator.aleksey-vl-ivanov.com/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "http://loan-calculator-chessiah.netlify.app/*"
-  to = "https://loan-calculator.chessiah.com/:splat"
+  from = "http://loan-calculator-aleksey-vl-ivanov.netlify.app/*"
+  to = "https://loan-calculator.aleksey-vl-ivanov.com/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "http://loan-calculator.chessiah.com/*"
-  to = "https://loan-calculator.chessiah.com/:splat"
+  from = "http://loan-calculator.aleksey-vl-ivanov.com/*"
+  to = "https://loan-calculator.aleksey-vl-ivanov.com/:splat"
   status = 301
   force = true
