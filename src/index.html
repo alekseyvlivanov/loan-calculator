@@ -10,9 +10,14 @@
       <div class="row">
         <div class="col-md-6 mx-auto">
           <div class="card card-body text-center mt-5">
-            <h1 class="heading display-5 pb-3">Loan Calculator</h1>
+            <h1 class="heading pb-3">Loan Calculator</h1>
 
             <form id="loan-form" class="mb-3">
+              <div
+                id="error-alert"
+                class="alert alert-warning d-none"
+                role="alert"
+              ></div>
               <div class="input-group mb-3">
                 <span class="input-group-text">$</span>
                 <input
@@ -37,13 +42,16 @@
                 class="form-control mb-3"
                 placeholder="Years to repay"
               />
-              <button type="submit" class="btn btn-dark w-100">
-                <span class="spinner-border spinner-border-sm d-none"></span>
+              <button id="submit-btn" type="submit" class="btn btn-dark w-100">
+                <span
+                  id="spinner"
+                  class="spinner-border spinner-border-sm d-none"
+                ></span>
                 Calculate
               </button>
             </form>
 
-            <div id="results">
+            <div>
               <h5>Results</h5>
               <div class="input-group mb-3">
                 <span class="input-group-text w-50">Monthly payment</span>
